@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <script src="../scripts/trail.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style/trail.css"/>
+    <link rel="stylesheet" type="text/css" href="../style/wagon.css"/>
+  </head>
+  <body>
+    <div id="title">The Oregon Trail</div>
+    <div id="messageWindow">Displaying Test Alert Text</div>
+    <div id="gameCanvas">
+      <div id="statusInfo">
+        <ul>
+          <li>Days On Trail: <span id="daysOnTrail"></span></li>
+          <li>Miles Traveled: <span id="milesTraveled"></span></li>
+          <li>Weather: <span id="currentWeather"></span></li>
+          <li>Health: <span id="currentHealth"></span></li>
+          <li>Health Status: <span id="healthStatus"></span></li>
+          <li>Pace: <span id="currentPace"></span></li>
+          <li>Terrain: <span id="currentTerrain"></span></li>
+          <li>Party Alive: <span id="partyAlive"></span></li>
+        </ul>
+      </div>
+      <img id="terrainImage" src=""></img>
+      <div id="startDist"><span id="start">0</span> mi</div>
+      <div id="track">
+        <div id="wagon">
+          <div id="cart">
+            <div id="cPart3" class="coverPart"></div>
+            <div id="cPart2" class="coverPart"></div>
+            <div id="cPart1" class="coverPart"></div>
+            <div id="wagonCover" class="coverPart"></div>
+            <div id="wagonHole" class="coverPart"></div>
+            <div id="cartBase"></div>
+            <div id="hitch"></div>
+          </div>
+          <div id="wheels">
+            <div id="leftWheel" class="wheel">
+              <div id="innerLeftWheel" class="innerWheel"></div>
+              <div id="leftCross" class='wheelCross'></div>
+            </div>
+            <div id="backLeftWheel" class="wheel"></div>
+            <div id="axle"></div>
+            <div id="rightWheel" class="wheel">
+              <div id="innerRightWheel" class="innerWheel"></div>
+              <div id="rightCross" class='wheelCross'></div>
+            </div>
+            <div id="backRightWheel" class="wheel"></div>
+          </div>
+        </div>
+      </div>
+      <div id="endDist"><span id="end">500</span> mi</div>
+    </div>
+    <div id="paceChange">Press <em>SPACE</em> to change pace</div>
+  </body>
+</html>

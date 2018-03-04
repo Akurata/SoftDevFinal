@@ -1,0 +1,46 @@
+
+@font-face {
+  font-family: '8BITWONDERNominal';
+  src: url('8BITWONDERNominal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "8BITWONDERNominal";
+  background-color: #9b4f0f;
+  color:#9b321f;
+}
+
+#indexContainer {
+  text-align: center;
+  font-size: 30px;
+  width: 900px;
+  margin: auto;
+  margin-top: 100px;
+
+  background-color: #1e434c;
+  padding: .5em;
+
+  box-shadow: 3px 5px 10px black;
+}
+.title {
+  font-size:70px;
+  text-shadow: 5px 5px 5px black;
+}
+#indexContainer p {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+#indexContainer em {
+  font-weight: bold;
+}
+#indexContainer em:hover {
+  cursor: pointer;
+}
+
+#continue {
+  color: #2eb82e;
+  text-shadow: 5px 5px 10px black;
+}

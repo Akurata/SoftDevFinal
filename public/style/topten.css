@@ -1,0 +1,79 @@
+
+@font-face {
+  font-family: '8BITWONDERNominal';
+  src: url('8BITWONDERNominal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "8BITWONDERNominal";
+  background-color: #9b4f0f;
+  color:#f39d8c;
+}
+#title {
+  text-align: center;
+  font-size: 90px;
+  color:#8d230f;
+  margin-top: 50px;
+  text-shadow: 5px 5px 1px black;
+}
+#topTen {
+  display:block;
+  margin: auto;
+  width: 80%;
+}
+
+.headers {
+  margin: auto;
+  float:left;
+  margin-top:50px;
+  font-size:25px;
+  text-align:center;
+  text-decoration:underline;
+  border: 2px solid lightgrey;
+
+  background-color: #262626;
+}
+.headers div {
+  border: 1px solid lightgrey;
+}
+ol {
+  display:inline-block;
+  text-decoration:none;
+  text-align:left;
+  /*overflow:hidden;*/
+  text-shadow: 5px 5px 10px black;
+}
+ul {
+  display:inline-block;
+  text-decoration:none;
+  list-style:none;
+  padding-left:0;
+  text-shadow: 5px 5px 10px black;
+}
+li {
+  height:30px;
+}
+#name {
+  width: 40%;
+}
+#score {
+  width: 20%;
+}
+#date {
+  width: 38%;
+}
+#return {
+  position:absolute;
+  top: 600px;
+  left:0;
+  right:0;
+  margin:auto;
+  text-align:center;
+
+  text-shadow: 5px 5px 10px black;
+}
+#return :hover {
+  cursor: pointer;
+}

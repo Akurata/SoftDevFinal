@@ -1,0 +1,32 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "Software Development 2 Project1 for Midsemester",
+  "main": "global.js",
+  "scripts": {
+    "start": "node Script/start.js"
+  },
+  "keywords": [
+    "SoftwareDevelopment2"
+  ],
+  "author": "Alex Kurata",
+  "license": "ISC",
+  "dependencies": {
+    "audio": "^1.2.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "react-dev-utils": "^4.1.0",
+    "request": "^2.83.0",
+    "require": "^2.4.20",
+    "save-dev": "^2.0.0",
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "events": "^1.1.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "keypress": "^0.2.1",
+    "location-href": "^1.0.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

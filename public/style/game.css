@@ -1,0 +1,89 @@
+
+@font-face {
+  font-family: '8BITWONDERNominal';
+  src: url('8BITWONDERNominal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "8BITWONDERNominal";
+  background-color: #9b4f0f;
+  color:#f39d8c;
+}
+
+#title {
+  text-align: center;
+  font-size: 90px;
+  color:#8d230f;
+  margin-top: 50px;
+  text-shadow: 5px 5px 1px black;
+}
+
+#gameContainer {
+  text-align: center;
+  font-size: 35px;
+  width: 900px;
+  margin: auto;
+  margin-top: 50px;
+
+  background-color: #1e434c;
+  padding: .5em;
+  box-shadow: 3px 5px 10px black;
+}
+
+p {
+  margin: 10px;
+  color: white;
+  text-shadow: 5px 5px 10px black;
+}
+ol {
+  text-align:left;
+  text-shadow: 5px 5px 10px black;
+  list-style:none;
+  padding-left: 0px;
+
+  line-height:70px;
+}
+ol:hover {
+  cursor: pointer;
+}
+li:hover {
+  text-shadow: 15px 15px 20px black;
+}
+
+ul {
+  list-style: none;
+}
+
+div {
+  text-shadow: 5px 5px 10px black;
+}
+
+#months {
+  text-align:center;
+}
+
+
+#returnCue, #continue {
+  width:900px;
+  text-align:center;
+  margin:auto;
+  margin-top: 10px;
+  text-shadow: 5px 5px 10px black;
+}
+
+#continue {
+  position:absolute;
+  font-size: 25px;
+  color:#2eb82e;
+  text-shadow: 2px 2px black;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  left:0;
+  right:0;
+}
+
+#gameContainer:hover {
+  cursor: pointer;
+}

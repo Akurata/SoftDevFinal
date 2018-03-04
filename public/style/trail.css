@@ -1,0 +1,113 @@
+
+@font-face {
+  font-family: '8BITWONDERNominal';
+  src: url('8BITWONDERNominal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+body {
+  font-family: "8BITWONDERNominal";
+  background-color: #9b4f0f;
+  color:#f39d8c;
+}
+
+/*TODO: End game tombstone inset/outset border*/
+/*TODO: Put in a fenced path + walkway for wagon*/
+
+#title {
+  text-align: center;
+  font-size: 60px;
+  color:#8d230f;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: 5px 5px 1px black;
+}
+
+#gameCanvas {
+  position: absolute;
+  width: 85%;
+  height: 800px;
+  border: 4px double #f39d8c;
+
+  margin: auto;
+  top: 100px;
+  left: 0;
+  right: 0;
+
+  z-index: -2;
+}
+
+#statusInfo {
+  margin: 20px 0px 0px 20px;
+  width: 475px;
+
+  font-size: 20px;
+  background-color: #262626;
+
+  border: 1px solid black;
+  box-shadow: 7px 7px 5px black;
+  padding: .5em;
+  /*opacity:.75;*/
+}
+#statusInfo span {
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
+#statusInfo ul {
+  list-style: none;
+  padding-left: 15px;
+}
+
+#messageWindow {
+  position: absolute;
+  text-align: center;
+  font-size: 35px;
+  width: 900px;
+
+  margin:auto;
+  top: 400px;
+  left:0;
+  right:0;
+
+  display:none;
+  opacity:0;
+  transition: opacity 0.4s;
+
+  color: white;
+  border: 5px double white;
+  background-color: #262626;
+  padding: .5em;
+
+  z-index: 2;
+}
+
+#terrainImage {
+  position: absolute;
+  top: 50px;
+  left:0;
+  right:0;
+  margin:auto;
+
+  width: 1320px;
+  height: 500px;
+  border: 1px solid blue;
+
+  z-index: -1;
+}
+
+#paceChange {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+
+  width: 550px;
+  margin: auto;
+  margin-top: 825px;
+  text-shadow: 5px 5px 10px black;
+}
+#paceChange em {
+  font-size: 25px;
+}
